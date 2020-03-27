@@ -1,5 +1,5 @@
 const express =  require('express');
-
+const {celebrate, Segments, Joi} = require('celebrate');
 const OngController = require('./controllers/OngController');
 const incidentController = require('./controllers/incidentController');
 const ProfileController = require('./controllers/ProfileController');
